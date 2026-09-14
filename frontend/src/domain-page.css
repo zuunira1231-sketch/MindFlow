@@ -1,0 +1,14 @@
+.domain-page { border-top: 1px solid #e4e8e3; }
+.domain-back { display: block; padding: 0; margin: 0 0 22px; color: #758a7a; font-size: 12px; }
+.domain-evolution-button { border: 1px solid #cbdcce; background: #fff; color: #326340; border-radius: 8px; padding: 10px 15px; font-size: 13px; font-weight: 600; white-space: nowrap; }
+.domain-evolution-button:hover { background: #f1f7f1; }
+.domain-evolution-button span { margin-left: 8px; }
+.current-understanding { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 24px; padding: 30px 0 31px; }
+.current-understanding-label { color: #5d8566; font-size: 12px; padding-top: 5px; }
+.section-kicker { color: #7a907e; font-size: 12px; letter-spacing: 0; }
+.understanding-text { max-width: 76ch; font-size: 21px; font-weight: 400; line-height: 1.65; letter-spacing: 0; margin: 0; color: #233027; }
+.understanding-text.collapsed { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.understanding-expand { border: 0; background: none; color: #397649; padding: 11px 0 0; font-size: 12px; }
+.domain-next { border-top: 1px solid #e4e8e3; padding: 31px 0 50px; }
+.domain-next p { color: #8a948b; font-size: 13px; line-height: 1.7; max-width: 68ch; }
+@media(max-width:760px) { .current-understanding { grid-template-columns: 1fr; gap: 9px; } .understanding-text { font-size: 18px; } }

@@ -1,0 +1,50 @@
+/* 首页只展示摘要，进入领域后再阅读完整认知。 */
+.domain-row p {
+  max-width: 68ch;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.home-heading p {
+  max-width: 74ch;
+  line-height: 1.65;
+}
+
+.domain-row small {
+  display: block;
+  margin-top: 4px;
+}
+
+.recent-knowledge { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px; }
+.recent-knowledge button { border: 0; border-radius: 16px; background: #e8f1ed; color: #2b6547; padding: 6px 11px; font-size: 13px; }
+.recent-knowledge button:hover { background: #dcebe2; }
+
+/* 圆润、以内容为主的首页呈现；不改变领域和标签的入口。 */
+:root { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; color: #233027; }
+.site-inner, .home { max-width: 1240px; }
+.site-inner { min-height: 66px; }
+.logo { letter-spacing: -.035em; }
+.header-actions { display: flex; align-items: center; gap: 28px; }
+.logout-button { border: 0; background: none; color: #798b7d; font-size: 12px; padding: 8px 0; }
+.logout-button:hover { color: #2b5f3b; }
+.auth-checking { min-height: 100vh; display: grid; place-items: center; color: #788a7d; font-size: 14px; }
+.site-header nav { gap: 28px; }
+.site-header nav button { border-radius: 0; padding: 22px 0; border-bottom: 2px solid transparent; background: none; font-size: 14px; font-weight: 500; }
+.site-header nav button:hover { background: none; }
+.site-header nav .nav-active { border-bottom-color: #357248; background: none; color: #2b5f3b; font-weight: 650; }
+.home { padding-top: 36px; }
+.home-heading { align-items: end; margin-bottom: 31px; }
+.home-heading h1 { font-size: 36px; letter-spacing: -.035em; margin: 8px 0 9px; }
+.home-kicker { display: block; color: #6e9276; font-size: 12px; }
+.home-heading p { font-size: 14px; }
+.primary-button { background: #2b5939; border-color: #2b5939; }
+.domain-row { grid-template-columns: 210px minmax(0, 1fr); padding: 27px 0; }
+.domain-row p { max-width: 76ch; font-size: 16px; font-weight: 400; line-height: 1.6; margin-bottom: 12px; }
+.domain-name { font-size: 18px; }
+.domain-name span { color: #719b78; }
+.recent-knowledge { margin-top: 0; gap: 9px; }
+.recent-knowledge button { border-radius: 7px; background: #edf5ee; color: #3b7850; padding: 6px 10px; font-size: 12px; }
+.recent-knowledge button:hover { background: #e0eee2; }
+@media(max-width:760px) { .home { padding-top: 28px; } .home-heading { align-items: flex-start; } .domain-row { grid-template-columns: 1fr; } .header-actions { gap: 12px; } }

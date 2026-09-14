@@ -1,0 +1,2 @@
+ALTER TABLE draft
+    MODIFY COLUMN source_content LONGTEXT NOT NULL;

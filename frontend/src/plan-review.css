@@ -1,0 +1,9 @@
+.plan-change { border-top: 1px solid #edf0ec; padding: 17px 0 19px; }
+.plan-change-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+.plan-change-head strong { font-size: 15px; font-weight: 650; }
+.plan-change-head em { color: #55715b; font-size: 12px; font-style: normal; white-space: nowrap; }
+.plan-change-body { margin: 11px 0 0; font-size: 14px; line-height: 1.8; white-space: pre-wrap; }
+.plan-change-links { margin: 10px 0 0; font-size: 12px; color: #77847a; }
+.plan-before { margin-top: 12px; font-size: 12px; color: #79847a; }
+.plan-before summary { cursor: pointer; width: fit-content; }
+.plan-before p { line-height: 1.7; white-space: pre-wrap; }

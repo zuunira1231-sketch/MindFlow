@@ -1,0 +1,25 @@
+.domain-explore { border-top: 1px solid #e4e8e3; padding: 31px 0 50px; }
+.domain-explore-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin-bottom: 13px; }
+.domain-explore-heading h2 { font-size: 21px; margin: 0; letter-spacing: -.025em; }
+.domain-explore-heading span { font-size: 12px; color: #8a948b; }
+.domain-explore-grid { display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr); gap: 0; }
+.knowledge-list { border-top: 1px solid #e4e8e3; }
+.knowledge-row { width: 100%; display: flex; align-items: flex-start; gap: 12px; text-align: left; border: 0; border-bottom: 1px solid #e4e8e3; background: transparent; padding: 16px 16px 16px 0; color: #233027; }
+.knowledge-row.selected { color: #2f7042; background: #f4f8f3; }
+.knowledge-index { color: #94a597; min-width: 20px; padding-top: 4px; font-size: 12px; }
+.knowledge-row-content { flex: 1; min-width: 0; }
+.knowledge-row-content strong { display: block; font-size: 15px; font-weight: 600; }
+.knowledge-row-content small { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; color: #859486; font-size: 12px; line-height: 1.5; margin-top: 5px; }
+.knowledge-row > span:last-child { color: #66916e; }
+.knowledge-detail { min-width: 0; padding: 21px 0 0 28px; border-left: 1px solid #e4e8e3; }
+.knowledge-detail h3 { font-size: 24px; margin: 9px 0 14px; letter-spacing: -.025em; }
+.knowledge-description { font-size: 15px; line-height: 1.8; margin: 0 0 26px; max-width: 42ch; }
+.related-heading { font-size: 12px; color: #7a907e; font-weight: 500; border-top: 1px solid #e4e8e3; padding-top: 17px; }
+.related-heading span { color: #8a948b; font-size: 12px; font-weight: 400; margin-left: 5px; }
+.relation-row { border-bottom: 1px solid #edf0ec; padding: 13px 0; }
+.relation-row p { font-size: 13px; color: #647568; line-height: 1.7; margin: 0 0 9px; }
+.relation-links { display: flex; flex-wrap: wrap; gap: 7px; }
+.relation-links button, .relation-links span { font-size: 12px; border: 0; border-radius: 7px; padding: 5px 9px; background: #edf4ee; color: #2a5434; }
+.relation-links span { background: #f2f2f0; color: #737c73; }
+.domain-empty, .no-relations { color: #8a948b; font-size: 13px; }
+@media(max-width:760px) { .domain-explore-grid { grid-template-columns: 1fr; } .knowledge-detail { border-left: 0; padding: 22px 0 0; } }
